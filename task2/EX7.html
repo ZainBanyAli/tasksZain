@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+      .dropbtn {
+      background-color: green;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown {
+      display: inline-block;
+    }
+
+
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      width: 160px;
+    }
+
+
+
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      text-align:justify;
+    }
+
+    .dropdown:hover .dropbtn {
+      color: yellow;
+    }
+
+
+
+    span{
+        background-color: green;
+        color: white;
+        display: inline-block;
+        padding: 16px;
+        width: 72px;
+    }
+
+    #navbar{
+        background-color: green;
+    }
+    
+    </style>
+
+</head>
+<body>
+    
+    <div id="navbar">
+
+    <span class="nav">Home </span> 
+    
+    <span class="nav">About </span> 
+    
+
+      <div class="dropdown">
+
+        <button class="dropbtn">Products</button>
+        <div class="dropdown-content">
+          <span>Engineering</span>
+          <span>Telecom</span>
+          <span>Energy</span>
+          <span>Finance</span>
+        </div>
+
+      </div>
+
+      <span class="nav">Services</span>
+      <span class="nav">Contact</span>
+
+    </div>
+</body>
+</html>
