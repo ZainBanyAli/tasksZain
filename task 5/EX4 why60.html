@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX4</title>
+
+    <style>
+        .container{
+        display: grid;
+        grid-template-columns: repeat(60,1fr);
+        grid-template-rows: repeat(6,1fr);
+        grid-column-gap:  5px;
+        grid-row-gap:  5px;
+        padding: 10px 20px;
+        color:white;
+        font-size: 40px;
+        text-align: center;
+        border: 2px;
+        border-radius: 5px ;
+        width: 90%;
+    height: 90vh;
+        
+        }
+
+        .row{
+  grid-area: 1 / 1 / span 1 / span 12;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;  
+grid-column-start: 1;
+grid-column-end: 60;
+border-radius: 25px;
+        }
+
+        .row1 {
+  grid-area: 2 / 1 / span 1 / span 6;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row2 {
+  grid-area: 2 / 1 / span 1 / span 6;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+ 
+  border-radius: 25px;
+
+        }
+
+        .row3 {
+  grid-area: 2 / 1 / span 3 / span 4;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row4 {
+  grid-area: 3 / 1 / span 1 / span 4;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        } 
+
+        .row5 {
+  grid-area: 3 / 1 / span 1 / span 4;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row6 {
+  grid-area: 3/ 1 / span 1 / span 4;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px ;
+  border-radius: 25px;
+
+        }
+
+.row7 {
+  grid-area: 4/ 1 / span 1 / span 3;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row8 {
+  grid-area: 4/ 1 / span 1 / span 3;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row9 {
+  grid-area: 4/ 1 / span 1 / span 3;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row10 {
+  grid-area: 4/ 1 / span 1 / span 3;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+        
+        .row11 {
+  grid-area: 5/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row12 {
+  grid-area: 5/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+
+  }
+
+        .row13 {
+  grid-area: 5/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+        .row14 {
+  grid-area: 5/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+        }
+
+.row15{
+    grid-area: 5/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+
+}
+
+
+.row16{
+    grid-area: 6/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+}
+
+.row17{
+    grid-area: 6/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+
+}
+
+.row18{
+    grid-area: 6/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+
+}
+
+.row19{
+    grid-area: 6/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+
+}
+
+.row20{
+    grid-area: 6/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+
+}
+
+.row21{  
+    grid-area: 6/ 1 / span 1 / span 1;
+  background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+
+
+}
+
+.row22{
+    grid-area: 7/ 1 / span 2 / span 60;
+    background-color:aqua;
+  text-align: center;
+  padding: 10px;
+  
+    color: white;
+    border-radius: 25px;
+
+
+}
+    </style>
+
+        </head>
+
+
+
+<body>
+    
+    <div class="container">
+        <div class="row"> 60 GS ia a starter kit for CSS Grid </div>
+
+        <div class="row1" style="grid-column-start: 1; grid-column-end: 30;"> 1 </div>
+        <div class="row2" style="grid-column-start: 30; grid-column-end: 60;"> 2</div>
+
+        <div class="row4" style="grid-column-start: 1; grid-column-end: 20;"> 1 </div>
+        <div class="row5" style="grid-column-start: 20; grid-column-end: 40;"> 2</div>
+        <div class="row6" style="grid-column-start: 40; grid-column-end: 60;"> 3 </div>
+
+        <div class="row7" style="grid-column-start: 1; grid-column-end: 15;"> 1 </div>
+        <div class="row8" style="grid-column-start: 15; grid-column-end: 30;"> 2</div>
+        <div class="row9" style="grid-column-start: 30; grid-column-end: 45;"> 3 </div>
+        <div class="row10" style="grid-column-start: 45; grid-column-end: 60;"> 5</div>
+
+        <div class="row11" style="grid-column-start: 1; grid-column-end: 15;"> 1 </div>
+        <div class="row12" style="grid-column-start: 15; grid-column-end: 30;"> 2</div>
+        <div class="row13" style="grid-column-start: 30; grid-column-end: 45;"> 3 </div>
+        <div class="row14" style="grid-column-start: 45; grid-column-end: 60;"> 4</div>
+
+        <div class="row15" style="grid-column-start: 1; grid-column-end: 12;"> 1 </div>
+        <div class="row16" style="grid-column-start: 12; grid-column-end: 24;"> 2</div>
+        <div class="row17" style="grid-column-start: 24; grid-column-end: 36;"> 3 </div>
+        <div class="row18" style="grid-column-start: 36; grid-column-end: 48;"> 4</div>
+        <div class="row19" style="grid-column-start: 48; grid-column-end: 60;"> 5</div>
+
+
+        <div class="row11" style="grid-column-start: 1; grid-column-end: 12;"> 1 </div>
+        <div class="row12" style="grid-column-start: 12; grid-column-end: 24;"> 2</div>
+        <div class="row13" style="grid-column-start: 24; grid-column-end: 36;"> 3 </div>
+        <div class="row14" style="grid-column-start: 36; grid-column-end: 48;"> 4</div>
+        <div class="row15" style="grid-column-start: 48; grid-column-end: 60;"> 5</div>
+
+        <div class="row16" style="grid-column-start: 1; grid-column-end: 12;"> 1 </div>
+        <div class="row17" style="grid-column-start: 12; grid-column-end: 24;"> 2</div>
+        <div class="row18" style="grid-column-start: 24; grid-column-end: 36;"> 3 </div>
+        <div class="row19" style="grid-column-start: 36; grid-column-end: 48;"> 4</div>
+        <div class="row20" style="grid-column-start: 48; grid-column-end: 60;"> 5</div>
+        <div class="row21" style="grid-column-start: 48; grid-column-end: 60;"> 6</div>
+
+        <div class="row22" > Why 60? <br><br> Because the number 60 is dividable by 2,3,4,5 and 6.</div>
+
+      </div>
+
+
+
+
+</body>
+</html>
