@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX1</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between; 
+        }
+
+        .text {
+            flex: 1; 
+            padding-right: 20px;
+        }
+
+        .blue-line {
+            border: none;
+            height: 2px;
+            background-color: blue;
+            margin: 10px 0;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .ullist {
+            color: blue;
+            list-style-type: none;
+            margin-right: 20px; }
+
+        .bullet-points ul li p {
+            margin: 0; 
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center; 
+            margin-bottom: 10px; 
+        }
+
+        .contact-info img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .contact-info p {
+            margin: 0; 
+        }
+
+        .button {
+            background-color: blue;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav style="color: blue;">A BOUT US</nav>
+
+<div class="container">
+    <div class="text">
+        <h1><b>Our experienced instructors are here to help you achieve your language goals</b></h1>
+        <p>It is a long established <b style="color: gray;">fact that a reader will be distracted </b>by the readable content of a page when looking at its layout. <b style="color: gray;">The</b><span style="color:red"><b> point of using Lorem Ipsum</span> </b>  <b style="color: gray;">is that it has a more-or-less</b> normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+        <div style="display: flex;flex-direction: row;margin-right: 20px;">
+            <hr class="blue-line" style="width: 30px;"><br>
+            <hr class="blue-line" style="width: 70px">
+            </div>
+
+        <div class="list">
+            <ul class="ullist">
+                <li><p>✔</p></li>
+                <li><p>✔</p></li>
+                <li><p>✔</p></li>
+                <li><p>✔</p></li>
+            </ul>
+            <ul class="ullist">
+                <li><p>correction of mistakes</p></li>
+                <li><p>professional instructors</p></li>
+                <li><p>online session</p></li>
+                <li><p>one to one</p></li>
+            </ul>
+            <ul class="ullist">
+                <li><p>✔</p></li>
+                <li><p>✔</p></li>
+                <li><p>✔</p></li>
+                <li><p>✔</p></li>
+            </ul>
+            <ul >
+                <li><p>continuous improvement</p></li>
+                <li><p>fair price</p></li>
+                <li><p>anytime you want</p></li>
+                <li><p>anywhere</p></li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <img src="call-logo.png">
+            <div>
+                <p>Call to ask any question</p>
+                <p><b style="color: blue;">+962779697216</b></p>
+            </div>
+        </div>
+
+        <button type="button" class="button">Free Trial</button>
+    </div>
+
+    <div>
+        <img src="meet.png" alt="Meet Image">
+    </div>
+</div>
+
+</body>
+</html>
