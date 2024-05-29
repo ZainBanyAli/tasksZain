@@ -1,0 +1,40 @@
+.section1{
+                background-size: 50rem 50rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                opacity: 0.9; 
+                position: relative;
+                width: 100%;
+                z-index: 1;
+
+            
+    
+}
+
+.h1 {
+z-index: 1;
+    position:absolute;
+    color:white;
+
+justify-content: center;
+align-items: center;
+z-index: 1;
+
+
+}
+.div1{
+    padding: auto;
+    font-weight: bold;
+    color:white;
+    z-index: 1;
+
+    text-align: center;
+    justify-content: center;
+
+    box-sizing: border-box ;
+    border: solid red;
+    width: 560px;
+    height: 560px;
+    z-index: 1;
+
+}

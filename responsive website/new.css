@@ -1,0 +1,29 @@
+
+/* Apply background image to all section tags */
+.bg-section {
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; /* Ensures the section takes up the full viewport height */
+    padding: 20px; /* Optional: Add padding if needed */
+}
+
+/* Additional styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+    border: 1px solid #ff5275;
+    border-radius: 15px;
+    background-color: url(msc.png);
+    opacity: 0.9;
+  }
+
