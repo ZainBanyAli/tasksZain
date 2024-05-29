@@ -1,0 +1,58 @@
+.container{
+        display: grid;
+        grid-template-columns: auto auto ;
+        width: 100%;
+        padding: 0;
+        margin: 0 ;
+        padding-bottom: 20px;
+    
+
+}
+
+.img1{
+    width: 50%;
+}
+.img2{
+    width: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    
+
+  }
+  
+  .grid-container > div {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto  ; 
+    padding: 40px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 1px 1px 0 rgb(128, 128, 128);
+    
+  }
+  .div1{
+    background-color: orangered;
+    color:white;
+
+  }
+  .icon{
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+   margin-right: 5px;
+    background-color: gainsboro;
+  }
+  all-div{
+    color:black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ; 
+    align-items: center; 
+
+  }
